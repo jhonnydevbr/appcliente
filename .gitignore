@@ -1,0 +1,46 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Rider / JetBrains
+.idea/
+
+# ASP.NET Core
+wwwroot/lib/
+appsettings.Development.json
+
+# Logs
+*.log
+Logs/
+
+# NPM / Yarn (caso use frontend)
+node_modules/
+
+# Transient files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Publish
+publish/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
