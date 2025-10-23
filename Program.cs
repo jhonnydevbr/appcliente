@@ -7,6 +7,8 @@ class Program
     static ClienteRepositorio _clienteRepositorio = new ClienteRepositorio();
     static void Main(string[] args)
     {
+        _clienteRepositorio.LerDadosClientes();
+
         while (true)
         {
             Menu();
@@ -66,6 +68,7 @@ class Program
                 }
             case 5:
                 {
+                    _clienteRepositorio.GravarDadosClientes();
                     Environment.Exit(0);
                     break;
                 }

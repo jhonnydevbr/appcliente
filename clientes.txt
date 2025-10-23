@@ -1,0 +1,1 @@
+[{"id":1,"nome":"Jhonny Brustolin","dataNascimento":"1998-06-09","cadastradoEm":"2025-10-23T12:13:58.775014-03:00","desconto":10}]
